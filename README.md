@@ -10,6 +10,7 @@ This model architecture is quite flexible. The inputs can be anything: user ids,
 	<img src="https://1.bp.blogspot.com/-ww8cKT3nIb8/X2pdWAWWNmI/AAAAAAAADl8/pkeFRxizkXYbDGbOcaAnZkorjEuqtrabgCLcBGAsYHQ/s0/TF%2BRecommenders%2B06.gif"</img>
 </p>
 # Dataset
+<p>
 This dataset contains ratings for ten thousand popular books. As to the source, let's say that these ratings were found on the internet. Generally, there are 100 reviews for each book, although some have less - fewer - ratings. Ratings go from one to five.
 Both book IDs and user IDs are contiguous. For books, they are 1-10000, for users, 1-53424. All users have made at least two ratings. Median number of ratings per user is 8.
 There are also books marked to read by the users, book metadata (author, year, etc.) and tags.
@@ -18,4 +19,5 @@ books.csv has metadata for each book (goodreads IDs, authors, title, average rat
 The metadata have been extracted from goodreads XML files, available in the third version of this dataset as booksxml.tar.gz. The archive contains 10000 XML files. One of them is available as samplebook.xml. To make the download smaller, these files are absent from the current version. Download version 3 if you want them.
 book_tags.csv contains tags/shelves/genres assigned by users to books. Tags in this file are represented by their IDs.
 tags.csv translates tag IDs to names.
+</p>
 https://www.kaggle.com/zygmunt/goodbooks-10k
