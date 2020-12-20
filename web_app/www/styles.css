@@ -1,0 +1,64 @@
+a:hover {
+    cursor: pointer;
+}
+
+.layout {
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    background-color: white;
+    border-collapse: collapse;
+}
+
+.layout tr td {
+    padding: 20px;
+    vertical-align: top;
+    border: solid 1px gray;
+}
+
+.header {
+    font-size: 30px;
+}
+
+.footer {
+    text-align: center;
+}
+
+.sidebarHeader {
+    font-size: 20px;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+a, a:visited {
+    color: darkgreen;
+}
+
+.contest {
+    margin-left: 20px;
+}
+
+.analytics-container {
+    column-count: 2;
+}
+
+.graph-name {
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 0.54;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: #414040;
+    margin-bottom: 10px;
+}
+
+.graph-container {
+    page-break-inside: avoid;
+    background-color: white;
+    min-height: 200px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
