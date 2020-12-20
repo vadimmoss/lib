@@ -6,6 +6,6 @@
 </p>
 <h2>Recommentaition engine</h2>
 <p>
-  We will use this dataset to build a model to predict which movies a user watched, and which they didn't. A common and effective pattern for this sort of task is the so-called two-tower model: a neural network with two sub-models that learn representations for queries and candidates separately. The score of a given query-candidate pair is simply the dot product of the outputs of these two towers. </br>
+  A common and effective pattern for this sort of task is the so-called two-tower model: a neural network with two sub-models that learn representations for queries and candidates separately. The score of a given query-candidate pair is simply the dot product of the outputs of these two towers.  </br>
   <img src="https://1.bp.blogspot.com/-ww8cKT3nIb8/X2pdWAWWNmI/AAAAAAAADl8/pkeFRxizkXYbDGbOcaAnZkorjEuqtrabgCLcBGAsYHQ/s0/TF%2BRecommenders%2B06.gif"</img>
 </p>
